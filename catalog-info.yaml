@@ -1,7 +1,7 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: sri-soundcheck-external-demo
+  name: sri-soundcheck-demo
   description: SCE Demo Component
   annotations:
     pagerduty.com/integration-key: dsadsadsadsadsadsa
@@ -9,6 +9,6 @@ metadata:
     - internal
 spec:
   type: service
-  lifecycle: experimental
+  lifecycle: production
   owner: toast-infra
   system: soundcheck
