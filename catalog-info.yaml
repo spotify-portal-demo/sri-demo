@@ -1,14 +1,9 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: sri-soundcheck-demo
-  description: SCE Demo Component
+  name: sri-demo
   annotations:
-    pagerduty.com/integration-key: dsadsadsadsadsadsa
-  tags:
-    - internal
+    github.com/project-slug: spotify-portal-demo/sri-demo
 spec:
-  type: service
+  type: other
   lifecycle: production
-  owner: toast-infra
-  system: soundcheck
